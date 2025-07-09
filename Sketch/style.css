@@ -147,6 +147,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.audit-list {
+  padding-left: 2em; /* 可依需求調整 */
+}
+
 /* 頁尾 */
 footer {
   background-color: #003366;
