@@ -141,8 +141,8 @@ body {
   position: fixed;         /* 固定在螢幕右下角 */
   bottom: 40px;            /* 距離底部距離 */
   right: 40px;             /* 距離右側距離 */
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background: rgba(255,255,255,0.85); /* 半透明背景 */
   border-radius: 20px;     /* 圓角 */
   box-shadow: 0 4px 20px rgba(0,0,0,0.18); /* 浮起效果 */
@@ -153,8 +153,8 @@ body {
 }
 
 .photo-wrapper img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   object-fit: cover;       /* 保持比例填滿容器 */
   border-radius: 16px;     /* 可選，讓圖片也有圓角 */
 }
