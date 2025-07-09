@@ -132,7 +132,6 @@ body {
 }
 
 .about-image {
-  position: absolute;         /* 固定在螢幕右下角 */
   bottom: 40px;            /* 距離底部距離 */
   right: 40px;             /* 距離右側距離 */
   width: 350px;
