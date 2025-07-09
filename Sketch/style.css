@@ -135,8 +135,8 @@ body {
   position: fixed;         /* 固定在螢幕右下角 */
   bottom: 40px;            /* 距離底部距離 */
   right: 40px;             /* 距離右側距離 */
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
   background: rgba(255,255,255,0.85); /* 半透明背景 */
   border-radius: 20px;     /* 圓角 */
   box-shadow: 0 4px 20px rgba(0,0,0,0.18); /* 浮起效果 */
