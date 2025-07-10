@@ -129,11 +129,10 @@ body {
   padding: 3rem 2rem;
   background-color: #f0f6ff;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .about-image {
-  bottom: 40px;            /* 距離底部距離 */
-  right: 40px;             /* 距離右側距離 */
   width: 350px;
   height: 350px;
   background: rgba(255,255,255,0.85); /* 半透明背景 */
@@ -291,6 +290,7 @@ footer {
     flex: 1 1 100%;
   }
 }
+
 /* 手機版導覽列樣式 */
 @media (max-width: 768px) {
   .navbar {
@@ -309,11 +309,11 @@ footer {
   .navbar nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start; /* 可用flex-start讓左對齊，或center為置中 */
-    flex-wrap: nowrap;           /* 關鍵：不換行 */
-    overflow-x: auto;            /* 可橫向捲動 */
-    white-space: nowrap;         /* 防止自動換行 */
-    width: 100vw;                /* 滿版 */
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100vw;
     gap: 0.5rem;
     padding: 0 1vw;
     box-sizing: border-box;
@@ -335,7 +335,7 @@ footer {
 /* Hero區塊-手機版圖片置頂 */
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column-reverse !important; /* 反轉順序 */
+    flex-direction: column-reverse !important;
     align-items: center;
     text-align: center;
   }
@@ -351,6 +351,31 @@ footer {
     margin: 0 auto;
   }
   .hero-text {
+    width: 100%;
+  }
+}
+
+/* 關於我們-手機版ANGUS.png在標題上方 */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  .about-image {
+    width: 80vw;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  .about-text {
     width: 100%;
   }
 }
