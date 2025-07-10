@@ -291,3 +291,60 @@ footer {
     flex: 1 1 100%;
   }
 }
+/* 手機版導覽列樣式 */
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .navbar .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .navbar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .navbar nav a {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    background: #f2f2f2;
+    margin: 2px 0;
+    color: #333;
+    text-decoration: none;
+  }
+}
+
+/* Hero區塊-手機版圖片置頂 */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse !important; /* 反轉順序 */
+    align-items: center;
+    text-align: center;
+  }
+  .hero-image {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .hero-image img {
+    width: 80vw;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .hero-text {
+    width: 100%;
+  }
+}
