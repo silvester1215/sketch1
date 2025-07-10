@@ -348,3 +348,21 @@ footer {
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+  .navbar nav {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100vw;
+    gap: 0.5rem;
+    padding: 0 1vw;
+    box-sizing: border-box;
+  }
+  .navbar nav a {
+    flex: 0 0 auto; /* 防止自動撐開變太寬 */
+    min-width: max-content;
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
