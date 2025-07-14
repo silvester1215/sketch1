@@ -162,6 +162,40 @@ body {
   padding-left: 1em; /* 可依需求調整 */
 }
 
+/* 誠峰觀點 */
+
+.insights {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #f0f6ff;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.insights-image {
+  width: 650px;
+  background: rgba(255,255,255,0.85); /* 半透明背景 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insights-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;       /* 保持比例填滿容器 */
+  border-radius: 16px;     /* 可選，讓圖片也有圓角 */
+}
+.insights-text {
+  flex: 1;
+}
+
+.insights-text h2 {
+  color: #003d73;
+  margin-bottom: 1rem;
+}
+
 /* 頁尾 */
 footer {
   background-color: #003366;
