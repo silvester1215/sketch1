@@ -196,6 +196,47 @@ body {
   margin-bottom: 1rem;
 }
 
+/* 文章列表 */
+.Library {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #f0f6ff;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.Library-image {
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,0.85); /* 半透明背景 */
+  border-radius: 20px;     /* 圓角 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;        /* 圖片超出會裁切 */
+}
+
+.Library-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;       /* 保持比例填滿容器 */
+  border-radius: 16px;     /* 可選，讓圖片也有圓角 */
+}
+.Library-text {
+  flex: 1;
+}
+
+.Library-text h2 {
+  color: #003d73;
+  margin-bottom: 1rem;
+}
+
+.Library-list {
+  padding-left: 1em; /* 可依需求調整 */
+}
+
+
 /* 頁尾 */
 footer {
   background-color: #003366;
