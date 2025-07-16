@@ -253,15 +253,6 @@ footer {
 }
 
 /* 聯絡我們區塊：圖片在左邊，文字在右邊，美化樣式 */
-.map-container {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
-  margin: 2rem auto;
-  max-width: 5000px;
-}
 
 .map-container .map-text {
   flex: 1;
@@ -310,31 +301,30 @@ footer {
   transform: scale(1.03);
 }
 
-.map {
+.map-container {
   display: flex;
-  align-items: center;
-  padding: 3rem 2rem;
-  background-color: #f0f6ff;
-  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 2rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1000px; /* 建議用1000px即可 */
 }
 .map-responsive {
-  flex-shrink: 0;
   width: 400px;
   position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 比例 */
+  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   overflow: hidden;
+  flex-shrink: 0;
 }
-
 .map-responsive iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 0; left: 0; width: 100%; height: 100%;
   border: 0;
+}
+.map-text {
+  flex: 1;
+}der: 0;
 }
 
 /* 響應式調整 */
