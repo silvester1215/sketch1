@@ -263,12 +263,11 @@ footer {
 
 .guide-container {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
   flex-wrap: nowrap;
-  max-width: 1200px;
-  margin: 0 auto;
   overflow-x: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .guide-container img {
@@ -279,6 +278,8 @@ footer {
   object-fit: contain;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
+  margin: 0; /* 確保沒多餘margin */
+  flex-shrink: 0; /* 讓每張圖不會被壓縮 */
 }
 
 .guide-container img:hover {
