@@ -253,7 +253,7 @@ footer {
 }
 
 /* 聯絡我們區塊：圖片在左邊，文字在右邊，美化樣式 */
-.about-container {
+.map-container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -263,11 +263,11 @@ footer {
   max-width: 5000px;
 }
 
-.about-container .maps {
+.map-container .maps {
   flex-shrink: 0;
 }
 
-.about-container .maps img {
+.map-container .maps img {
   width: 300px;
   height: auto;
   object-fit: contain;
@@ -275,17 +275,17 @@ footer {
   border: 1px solid #ccddee;
 }
 
-.about-container .about-text {
+.map-container .map-text {
   flex: 1;
 }
 
-.about-container .about-text h2 {
+.map-container .map-text h2 {
   color: #003d73;
   margin-bottom: 1rem;
   font-size: 1.8rem;
 }
 
-.about-container .about-text p {
+.about-container .map-text p {
   margin-bottom: 0.5rem;
   font-size: 1.05rem;
   color: #333;
@@ -348,7 +348,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .about-container {
+  .map-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -441,25 +441,25 @@ footer {
 
 /* 關於我們-手機版ANGUS.png在標題上方 */
 @media (max-width: 768px) {
-  .about {
+  .map {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 1.5rem;
   }
-  .about-image {
+  .map-image {
     width: 80vw;
     max-width: 300px;
     height: auto;
     margin-bottom: 1rem;
   }
-  .about-image img {
+  .map-image img {
     width: 100%;
     height: auto;
     border-radius: 16px;
     object-fit: cover;
   }
-  .about-text {
+  .map-text {
     width: 100%;
   }
 }
