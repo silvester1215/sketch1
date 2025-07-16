@@ -265,10 +265,10 @@ footer {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   max-width: 1200px;
   margin: 0 auto;
-  align-items: flex-start;
+  overflow-x: auto;
 }
 
 .guide-container img {
