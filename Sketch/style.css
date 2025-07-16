@@ -254,22 +254,6 @@ footer {
 
 /* 聯絡我們區塊：圖片在左邊，文字在右邊，美化樣式 */
 
-.map-container .map-text {
-  flex: 1;
-}
-
-.map-container .map-text h2 {
-  color: #003d73;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-}
-
-.about-container .map-text p {
-  margin-bottom: 0.5rem;
-  font-size: 1.05rem;
-  color: #333;
-}
-
 /* 橫向三張圖片 - 公司環境展示 */
 .guide {
   padding: 2rem;
@@ -301,6 +285,9 @@ footer {
   transform: scale(1.03);
 }
 
+.map{
+  background-color: #f0f6ff;
+}
 .map-container {
   display: flex;
   align-items: flex-start;
@@ -329,7 +316,21 @@ footer {
 }
 .map-text {
   flex: 1;
-}der: 0;
+}
+.map-container .map-text {
+  flex: 1;
+}
+
+.map-container .map-text h2 {
+  color: #003d73;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.about-container .map-text p {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  color: #333;
 }
 
 /* 響應式調整 */
