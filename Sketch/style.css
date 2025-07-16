@@ -306,11 +306,14 @@ footer {
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
-  margin: 2rem auto;
+  max-width: 900px;
+  margin: 0 auto;
   max-width: 1000px; /* 建議用1000px即可 */
 }
 .map-responsive {
-  width: 400px;
+  width: 60%;       /* 或 50% */
+  min-width: 300px;
+  max-width: 600px;
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
