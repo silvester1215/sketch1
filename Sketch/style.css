@@ -293,6 +293,7 @@ footer {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
+  overflow-x: auto;
   padding: 2rem;
   max-width: 900px;
   margin: 0 auto;
