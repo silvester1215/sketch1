@@ -158,9 +158,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.about-text li {
-  padding-left: 1em; /* 可依需求調整 */
-}
+/* 服務項目 */
 
 .services {
   display: flex;
@@ -170,6 +168,7 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
 }
+
 .services-text {
   flex: 1;
 }
@@ -265,15 +264,6 @@ body {
   padding-left: 1em; /* 可依需求調整 */
 }
 
-
-/* 頁尾 */
-footer {
-  background-color: #003366;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-}
-
 /* 聯絡我們區塊：圖片在左邊，文字在右邊，美化樣式 */
 
 /* 橫向三張圖片 - 公司環境展示 */
@@ -357,6 +347,14 @@ footer {
   margin-bottom: 0.5rem;
   font-size: 1.05rem;
   color: #333;
+}
+
+/* 頁尾 */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 /* 響應式調整 */
