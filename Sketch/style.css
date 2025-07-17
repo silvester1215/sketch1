@@ -162,6 +162,14 @@ body {
   padding-left: 1em; /* 可依需求調整 */
 }
 
+.servuce {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #f0f6ff;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 .service-text {
   flex: 1;
 }
