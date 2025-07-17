@@ -162,6 +162,16 @@ body {
   padding-left: 1em; /* 可依需求調整 */
 }
 
+.service-text {
+  flex: 1;
+}
+
+.service-text h2 {
+  color: #003d73;
+  margin-bottom: 1rem;
+  padding-left: 1em; /* 可依需求調整 */
+}
+
 .audit-list {
   padding-left: 1em; /* 可依需求調整 */
 }
