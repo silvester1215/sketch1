@@ -480,3 +480,21 @@ footer {
     width: 100%;
   }
 }
+/* 誠峰觀點 */
+@media (max-width: 768px) {
+  .insights-text {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .insights-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .navbar nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
