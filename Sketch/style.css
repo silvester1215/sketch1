@@ -449,8 +449,8 @@ footer {
   }
 }
 
-/* Hero區塊-手機版圖片置頂 */
 @media (max-width: 768px) {
+  /* Hero 區塊 */
   .hero {
     flex-direction: column-reverse !important;
     align-items: center;
@@ -470,10 +470,8 @@ footer {
   .hero-text {
     width: 100%;
   }
-}
 
-/* 關於我們-手機版ANGUS.png在標題上方 */
-@media (max-width: 768px) {
+  /* Map 區塊 */
   .map {
     flex-direction: column;
     align-items: center;
@@ -495,26 +493,23 @@ footer {
   .map-text {
     width: 100%;
   }
-}
-/* 誠峰觀點 */
-@media (max-width: 768px) {
+
+  /* Insights 區塊 */
   .insights-text {
     font-size: 1rem;
     padding: 1rem;
   }
-
   .insights-image {
     width: 100%;
     padding: 1rem;
   }
-
   .insights-image img {
     max-width: 100%;
     height: auto;
     object-fit: contain;
   }
-}
 
+  /* Navbar */
   .navbar nav a {
     display: block;
     margin: 0.5rem 0;
