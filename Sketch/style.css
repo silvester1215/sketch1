@@ -158,6 +158,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.about-text li {
+  padding-left: 1em; /* 可依需求調整 */
+}
+
 .audit-list {
   padding-left: 1em; /* 可依需求調整 */
 }
