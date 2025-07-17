@@ -30,6 +30,11 @@ body {
   font-weight: bold;
 }
 
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
 .navbar nav a {
   color: #fff;
   text-decoration: none;
