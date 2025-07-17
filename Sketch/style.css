@@ -269,6 +269,16 @@ body {
 .Library-list {
   padding-left: 1em; /* 可依需求調整 */
 }
+/* 誠峰觀點 */
+
+.google-reviews {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #f0f6ff;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 
 /* 聯絡我們區塊：圖片在左邊，文字在右邊，美化樣式 */
 
