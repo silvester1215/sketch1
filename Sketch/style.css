@@ -266,8 +266,9 @@ footer {
   flex-wrap: nowrap;
   overflow-x: auto;
   max-width: 100%;
-  margin: 0;
+  margin: 0 auto; /* 讓容器水平置中 */
   padding: 0;
+  justify-content: center; /* 讓圖片在容器中置中排列 */
 }
 
 .guide-container img {
